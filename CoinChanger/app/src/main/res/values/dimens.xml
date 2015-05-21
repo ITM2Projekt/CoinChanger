@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default space between the content and the border -->
+    <dimen name="default_border">16dip</dimen>
+
+    <!-- Default spacing between elements -->
+    <dimen name="default_element_spacing">8dip</dimen>
+</resources>

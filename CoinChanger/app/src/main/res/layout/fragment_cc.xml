@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/backgroundColor"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/default_border">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputEditText"
+            android:inputType="numberDecimal"
+            android:lines="1"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/selectorSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/default_element_spacing"
+            />
+
+        <View
+            android:background="@color/accent_color"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/default_element_spacing"/>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_progressbar"/>
+</RelativeLayout>

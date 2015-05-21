@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Währungsrechner</string>
+    <string name="STR_SelectCurrency">Betrag angeben</string>
+
+</resources>
